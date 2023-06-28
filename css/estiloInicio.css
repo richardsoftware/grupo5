@@ -1,0 +1,63 @@
+
+/* Cuerpo */
+#cuerpo {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.artículo{
+    box-align: center;    
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid #bdbdbd;
+
+}
+
+.redondo {
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    box-shadow: 2px 2px 2px black;
+}
+h3 {
+    text-align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+    color: black;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn {
+    text-align: center;
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 2px solid #2c0b8e;
+    background: #2c0b8e;
+    border-radius: 5px;
+}
+
+
+.btn:hover {
+    background: #fff;
+    color: #2c0b8e
+}
